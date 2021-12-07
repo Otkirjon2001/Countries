@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="body">
   <!-- SITE-HEADER -->
   <header class="site-header">
     <div class="container header-container">
@@ -30,12 +30,213 @@
   </header>
   <!-- MAIN-CONTENT -->
   <main class="main-content">
+    <!-- SEARCH-FORM -->
     <section class="search-form">
       <div class="container search-form-container">
         <form class="form-search" action="https://echo.htmlacademy.ru" method="POST">
           <input class="search-input" type="search" aria-label="search" placeholder="Search for a country…">
-          <input type="hidden">
+          <div class="form-select-box">
+            <select class="form-select" name="Filter by Region">
+              <option class="form-select-option" value="Filter by Region">Filter by Region</option>
+              <option class="form-select-option" value="Africa">Africa</option>
+              <option class="form-select-option" value="America">America</option>
+              <option class="form-select-option" value="Asia">Asia</option>
+              <option class="form-select-option" value="Europe">Europe</option>
+              <option class="form-select-option" value="Oceania">Oceania</option>
+            </select>
+          </div>
         </form>
+      </div>
+    </section>
+    <!-- HERO-SECTION -->
+    <section class="hero">
+      <div class="container hero-container">
+        <ul class="hero-list">
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/germany.png" alt="germany" width="267" height="160"
+              srcset="imgs/germany.png 1x, imgs/germany@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Germany</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>81,770,900</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Europe</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Berlin</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/usa.png" alt="usa" width="267" height="160"
+              srcset="imgs/usa.png 1x, imgs/usa@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">United States of America</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population: </dt>
+                  <dd>323,947,000</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd> Americas</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Washington, D.C.</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/brazil.png" alt="brazil" width="267" height="160"
+              srcset="imgs/brazil.png 1x, imgs/brazil.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Brazil</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>206,135,893</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Americas</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Brasília</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/iceland.png" alt="iceland" width="267" height="160"
+              srcset="imgs/iceland.png 1x, imgs/iceland@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Iceland</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>334,300</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Europe</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Reykjavík</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/afghanistan.png" alt="afghanistan" width="267" height="160"
+              srcset="imgs/afghanistan.png 1x,imgs/afghanistan.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Afghanistan</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>27,657,145</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Asia</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Kabul</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/aland-islands.png" alt="aland-islands" width="267" height="160"
+              srcset="imgs/aland-islands.png 1x,imgs/aland-islands@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Åland Islands</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>28,875</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Europe</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Mariehamn</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/albania.png" alt="albania" width="267" height="160"
+              srcset="imgs/albania.png 1x,imgs/albania@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Albania</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>2,886,026</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Europe</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Tirana</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+          <li class="hero-item">
+            <img class="hero-item-img" src="imgs/algeria.png" alt="algeria" width="267" height="160"
+              srcset="imgs/algeria.png 1x,imgs/algeria@2x.png 2x">
+            <div class="hero-item-content">
+              <h3 class="hero-heading">
+                <a class="hero-heading-link" href="#">Algeria</a>
+              </h3>
+              <dl>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Population:</dt>
+                  <dd>40,400,000</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Region:</dt>
+                  <dd>Africa</dd>
+                </div>
+                <div class="hero-item-text">
+                  <dt class="hero-item-text-dt">Capital:</dt>
+                  <dd>Algiers</dd>
+                </div>
+              </dl>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
