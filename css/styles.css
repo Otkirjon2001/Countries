@@ -255,14 +255,16 @@ a:active{
   padding: 10px 40px 10px 32px;
   color: var(--font-color);
   background-color: var(--body-bg-color);
-  border-radius: 8px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
 }
 .back-page-box {
   display: flex;
   align-items: center;
 }
 .back-page-icon {
-
+  width: 20px;
+  height: 20px;
 }
 .back-page-text {
   margin-left: 10px;
@@ -276,8 +278,10 @@ a:active{
   width: 560px;
   height: 401px;
   border-radius: 12px;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
 }
 .index-section-hero-content {
+  width: 574px;
 }
 .hero-content-heading {
   margin-top: 0;
@@ -317,20 +321,35 @@ a:active{
 }
 .border-countries {
   display: flex;
+  align-items: center;
+}
+.border-countries-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .border-countries-dt {
+  margin: 0;
+  margin-right: 16px;
   font-weight: 600;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 24px;
-
 }
 .border-countries-dd {
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
 }
+.border-countries-dd:not(:last-child){
+  margin-right: 10px;
+}
 .border-countries-link {
   display: inline-block;
+  min-width: 96px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   padding: 5px 27px;
   color: var(--font-color);
   background-color: var(--body-bg-color);
