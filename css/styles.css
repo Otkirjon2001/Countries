@@ -174,6 +174,7 @@ a:active{
   top: 21px;
   left: 34px;
   color: var(--placeholder-color);
+  pointer-events: none;
 }
 .search-input {
   min-width: 480px;
@@ -182,6 +183,7 @@ a:active{
   border-radius: 5px;
   background-color: var(--body-bg-color);
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  color: var(--font-color);
 }
 .search-input::placeholder{
   color: var(--placeholder-color);
