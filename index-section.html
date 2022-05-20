@@ -14,93 +14,95 @@
 <body>
   <!-- SITE-HEADER -->
   <header class="site-header">
-    <div class="container header-container">
-      <a class="site-heading" href="#">Where in the world?</a>
-      <button class="header-button" type="button">
-        <span class="dark-mode">
-          <svg class="dark-mode-img" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+    <div class="container site-header__container">
+      <a class="site-header__heading" href="#">Where in the world?</a>
+      <button class="site-header__button dark-mode js-button" type="button">
+        <span class="dark-mode__inner">
+          <svg class="dark-mode__img" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M13.553 13.815c-3.884 0-7.034-2.887-7.034-6.447 0-1.343.448-2.586 1.212-3.618-3.04.945-5.231 3.581-5.231 6.688 0 3.9 3.45 7.062 7.704 7.062 3.389 0 6.266-2.007 7.296-4.796a7.458 7.458 0 0 1-3.947 1.111Z"
               fill="#fff" stroke="currentColor" stroke-width="1.25" />
           </svg>
-          <span class="dark-mode-text">Dark Mode</span>
+          <span class="dark-mode__text">Dark Mode</span>
         </span>
       </button>
     </div>
   </header>
   <!-- MAIN-CONTENT -->
   <main class="main-content">
-    <div class="index-section-container container">
-      <a class="back-page-link" href="index.html">
-        <span class="back-page-box">
-          <svg class="back-page-icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="m6.464 4.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 10l5.892-5.893Z"
-              fill="currentColor" />
-          </svg>
-          <span class="back-page-text">Back</span>
-        </span>
-      </a>
-      <div class="index-section-hero">
-        <img class="index-section-hero-img" src="imgs/belgium-flag.jpg" alt="" width="560" height="401"
-          srcset="imgs/belgium-flag.jpg 1x, imgs/belgium-flag@2x.jpg 2x">
-        <div class="index-section-hero-content">
-          <h1 class="hero-content-heading">Belgium</h1>
-          <ul class="index-section-list">
-            <li class="index-section-item">
-              <dl class="index-section-item-dl">
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Native Name:</dt>
-                  <dd class="index-section-item-text-dd"> België</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Population:</dt>
-                  <dd class="index-section-item-text-dd"> 11,319,511</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Region:</dt>
-                  <dd class="index-section-item-text-dd"> Europe</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Sub Region:</dt>
-                  <dd class="index-section-item-text-dd"> Western Europe</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Capital:</dt>
-                  <dd class="index-section-item-text-dd">Brussels</dd>
-                </div>
-              </dl>
-            </li>
-            <li class="index-section-item">
-              <dl class="index-section-item-dl">
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Top Level Domain:</dt>
-                  <dd class="index-section-item-text-dd"> .be</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Currencies:</dt>
-                  <dd class="index-section-item-text-dd"> Euro</dd>
-                </div>
-                <div class="index-section-item-text">
-                  <dt class="index-section-item-text-dt">Languages:</dt>
-                  <dd class="index-section-item-text-dd"> Dutch, French, German</dd>
-                </div>
-              </dl>
-            </li>
-          </ul>
-          <div class="border-countries">
-            <h2 class="border-countries-dt">Border Countries: </h2>
-            <ul class="border-countries-wrapper">
-              <li class="border-countries-dd">
-                <a class="border-countries-link" href="#" target="_blank">France</a>
+    <div class="index-section">
+      <div class="index-section__container container">
+        <a class="index-section__button backpage" href="index.html">
+          <span class="backpage__inner">
+            <svg class="backpage__icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="m6.464 4.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 10l5.892-5.893Z"
+                fill="currentColor" />
+            </svg>
+            <span class="backpage__text">Back</span>
+          </span>
+        </a>
+        <div class="index-section__about about">
+          <img class="about__img" src="imgs/belgium-flag.jpg" alt="" width="560" height="401"
+            srcset="imgs/belgium-flag.jpg 1x, imgs/belgium-flag@2x.jpg 2x">
+          <div class="about__content">
+            <h1 class="about__heading">Belgium</h1>
+            <ul class="about__list">
+              <li class="about__item basic-information">
+                <dl class="basic-information__dl">
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Native Name:</dt>
+                    <dd class="basic-information__dd"> België</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Population:</dt>
+                    <dd class="basic-information__dd"> 11,319,511</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Region:</dt>
+                    <dd class="basic-information__dd"> Europe</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Sub Region:</dt>
+                    <dd class="basic-information__dd"> Western Europe</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Capital:</dt>
+                    <dd class="basic-information__dd">Brussels</dd>
+                  </div>
+                </dl>
               </li>
-              <li class="border-countries-dd">
-                <a class="border-countries-link" href="#" target="_blank">Germany</a>
-              </li>
-              <li class="border-countries-dd">
-                <a class="border-countries-link" href="#" target="_blank">Netherlands</a>
+              <li class="about__item basic-information">
+                <dl class="basic-information__dl">
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Top Level Domain:</dt>
+                    <dd class="basic-information__dd">.be</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Currencies:</dt>
+                    <dd class="basic-information__dd">Euro</dd>
+                  </div>
+                  <div class="basic-information__inner">
+                    <dt class="basic-information__dt">Languages: </dt>
+                    <dd class="basic-information__dd"> Dutch, French, German</dd>
+                  </div>
+                </dl>
               </li>
             </ul>
+            <div class="about__border border-countries">
+              <h2 class="border-countries__heading">Border Countries: </h2>
+              <ul class="border-countries__list">
+                <li class="border-countries__item border-country">
+                  <a class="border-country__link" href="#" target="_blank">France</a>
+                </li>
+                <li class="border-countries__item  border-country">
+                  <a class="border-country__link" href="#" target="_blank">Germany</a>
+                </li>
+                <li class="border-countries__item border-country">
+                  <a class="border-country__link" href="#" target="_blank">Netherlands</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

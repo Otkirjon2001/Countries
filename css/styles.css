@@ -275,11 +275,13 @@ a:active{
 
 
 /* INDEX SECTION */
-.index-section-container {
+.index-section__container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.back-page-link {
+
+/* BACKPAGE */
+.backpage {
   display: inline-block;
   margin-bottom: 80px;
   padding: 10px 40px 10px 32px;
@@ -288,32 +290,34 @@ a:active{
   background-color: var(--body-bg-color);
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
 }
-.back-page-box {
+.backpage__inner {
   display: flex;
   align-items: center;
 }
-.back-page-icon {
+.backpage__icon {
   width: 20px;
   height: 20px;
 }
-.back-page-text {
+.backpage__text {
   margin-left: 10px;
 }
-.index-section-hero {
+
+/* ABOUT */
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.index-section-hero-img {
+.about__img {
   width: 560px;
   height: 401px;
   border-radius: 12px;
   box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
 }
-.index-section-hero-content {
+.about__content {
   width: 574px;
 }
-.hero-content-heading {
+.about__heading {
   margin-top: 0;
   margin-bottom: 23px;
   font-weight: 800;
@@ -321,61 +325,63 @@ a:active{
   line-height: 44px;
   color: var(--font-color);
 }
-.index-section-list {
+.about__list {
   display: flex;
   margin: 0;
   margin-bottom: 70px;
   padding: 0;
   list-style: none;
 }
-.index-section-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-right: 117px;
 }
-.index-section-item-dl {
+.basic-information__dl {
   margin: 0;
 }
-.index-section-item-text {
+.basic-information__inner {
   display: flex;
 }
-.index-section-item-text-dt {
+.basic-information__dt {
   font-size: 16px;
   font-weight: 600;
   line-height: 32px;
 }
-.index-section-item-text-dd {
+.basic-information__dd {
   margin: 0;
   margin-left: 4px;
   font-size: 16px;
   font-weight: 300;
   line-height: 32px;
 }
+
+/* BORDER-COUNTRIES */
 .border-countries {
   display: flex;
   align-items: center;
 }
-.border-countries-wrapper{
+.border-countries__list{
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.border-countries-dt {
+.border-countries__heading {
   margin: 0;
   margin-right: 16px;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
 }
-.border-countries-dd {
+.border-country {
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
 }
-.border-countries-dd:not(:last-child){
+.border-country:not(:last-child){
   margin-right: 10px;
 }
-.border-countries-link {
+.border-country__link{
   display: inline-block;
   min-width: 96px;
   margin-top: 4px;
