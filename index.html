@@ -32,23 +32,23 @@
   <main class="main-content">
     <h1 class="visually-hidden">Countries</h1>
     <!-- SEARCH-FORM -->
-    <section class="search-form">
+    <section class="search">
       <h2 class="visually-hidden">Search form</h2>
-      <div class="container search-form-container">
-        <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
-          <svg class="search-logo" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+      <div class="container search__container">
+        <form class="search__form" action="https://echo.htmlacademy.ru" method="get">
+          <svg class="search__logo" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M12.5 11h-.8l-.3-.3c1-1.1 1.6-2.6 1.6-4.2C13 2.9 10.1 0 6.5 0S0 2.9 0 6.5 2.9 13 6.5 13c1.6 0 3.1-.6 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5Zm-6 0C4 11 2 9 2 6.5S4 2 6.5 2 11 4 11 6.5 9 11 6.5 11Z"
               fill="currentColor" />
           </svg>
-          <input class="search-input" type="search" name="Search for a country" placeholder="Search for a country…"  aria-label="search" required>
-          <select class="form-select" name="Filter by Region" aria-label="search filter">
-            <option class="form-select-option" selected disabled>Filter by Region</option>
-            <option class="form-select-option">Africa</option>
-            <option class="form-select-option">America</option>
-            <option class="form-select-option">Asia</option>
-            <option class="form-select-option">Europe</option>
-            <option class="form-select-option">Oceania</option>
+          <input class="search__input" type="search" name="Search for a country" placeholder="Search for a country…"  aria-label="search" required>
+          <select class="search__select filter" name="Filter by Region" aria-label="search filter">
+            <option class="filter__option" selected disabled>Filter by Region</option>
+            <option class="filter__option">Africa</option>
+            <option class="filter__option">America</option>
+            <option class="filter__option">Asia</option>
+            <option class="filter__option">Europe</option>
+            <option class="filter__option">Oceania</option>
           </select>
         </form>
       </div>
